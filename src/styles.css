@@ -6,6 +6,9 @@ h1 {
 h2 {
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
 .temperature {
   margin: 0 auto;
   text-align: center;
@@ -103,4 +106,7 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+}
+.sign {
+  font-size: small;
 }
