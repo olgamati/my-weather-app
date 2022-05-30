@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+
+  line-height: 25px;
+}
+h2 {
+  margin: 0 auto;
+}
+.temperature {
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+}
+.date {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(65, 64, 64, 1);
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: block;
+  background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  );
+  border: 1px solid;
+  border-radius: 10px;
+}
+.city {
+  text-align: center;
+  margin: 20px;
+}
+.enCity {
+  padding: 5px 7px;
+  border-color: #f5aef2;
+  border-radius: 10px;
+}
+.button {
+  background-color: #f5aef2;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+  transition: all 150ms linear;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #b6fdfe;
+}
+.btn {
+  background-color: #f5aef2;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+  transition: all 150ms linear;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #b6fdfe;
+}
+.weatherNow {
+  width: 150px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  border: solid thin;
+  border-radius: 50%;
+}
+.enterCity {
+  font-size: 20px;
+  margin: 20px;
+}
+.description {
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.col {
+  text-align: center;
+  padding: 30px;
+  font-weight: 600;
+}
+.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
