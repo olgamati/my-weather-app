@@ -55,7 +55,7 @@ h2 {
 }
 .button:hover {
   cursor: pointer;
-  background-color: #b6fdfe;
+  background-color: #ccf8f8;
 }
 .btn {
   background-color: #f5aef2;
@@ -68,7 +68,7 @@ h2 {
 }
 .btn:hover {
   cursor: pointer;
-  background-color: #b6fdfe;
+  background-color: #ccf8f8;
 }
 .weatherNow {
   width: 150px;
