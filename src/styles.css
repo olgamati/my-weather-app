@@ -20,9 +20,11 @@ a {
   color: rgba(65, 64, 64, 1);
   margin-bottom: 20px;
 }
-.container {
+.weather-app-wrapper {
   max-width: 650px;
   margin-top: 20px;
+}
+.weather-app {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;

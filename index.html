@@ -17,61 +17,65 @@
   </head>
   <body>
     <div class="container">
-      <form class="city" id="search-form">
-        <input
-          type="text"
-          placeholder="Enter a city"
-          class="enCity"
-          id="city-input"
-        />
-        <input type="submit" value="search" class="button" />
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form class="city" id="search-form">
+            <input
+              type="text"
+              placeholder="Enter a city"
+              class="enCity"
+              id="city-input"
+            />
+            <input type="submit" value="search" class="button" />
 
-        <button type="success" class="btn" id="current-location-button">
-          current location
-        </button>
-      </form>
-      <h1 id="city">City</h1>
-      <div class="date"></div>
-      <div class="weatherNow">
-        <h2><span class="temperature" id="temperature">18</span>°C</h2>
-        <img src="images/sun.png" alt="sun" width="50" />
-        <br />
-        <span id="description-now"> Partly cloudy </span>
-      </div>
-      <div class="description">
-        Humidity: <span id="humidity">30</span>%
-        <span> Wind: <span id="wind">0</span>km/h </span>
-      </div>
-      <div class="row">
-        <div class="col">
-          MON
-          <small> 12°C/19°C </small>
-          <br />
-          🌤
-        </div>
-        <div class="col">
-          TUE
-          <small> 14°C/21°C </small>
-          <br />
-          ☀
-        </div>
-        <div class="col">
-          WED
-          <small> 12°C/20°C </small>
-          <br />
-          🌦
-        </div>
-        <div class="col">
-          TUE
-          <small> 14°C/19°C </small>
-          <br />
-          ☁
-        </div>
-        <div class="col">
-          FRI
-          <small> 16°C/23°C </small>
-          <br />
-          ☀
+            <button type="success" class="btn" id="current-location-button">
+              current location
+            </button>
+          </form>
+          <h1 id="city">City</h1>
+          <div class="date"></div>
+          <div class="weatherNow">
+            <h2><span class="temperature" id="temperature">18</span>°C|°F</h2>
+            <img src="images/sun.png" alt="sun" width="50" />
+            <br />
+            <span id="description-now"> Partly cloudy </span>
+          </div>
+          <div class="description">
+            Humidity: <span id="humidity">30</span>%
+            <span> Wind: <span id="wind">0</span>km/h </span>
+          </div>
+          <div class="row">
+            <div class="col">
+              MON
+              <small> 12°C/19°C </small>
+              <br />
+              🌤
+            </div>
+            <div class="col">
+              TUE
+              <small> 14°C/21°C </small>
+              <br />
+              ☀
+            </div>
+            <div class="col">
+              WED
+              <small> 12°C/20°C </small>
+              <br />
+              🌦
+            </div>
+            <div class="col">
+              TUE
+              <small> 14°C/19°C </small>
+              <br />
+              ☁
+            </div>
+            <div class="col">
+              FRI
+              <small> 16°C/23°C </small>
+              <br />
+              ☀
+            </div>
+          </div>
         </div>
       </div>
       <div class="sign">
