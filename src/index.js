@@ -40,7 +40,7 @@ function displayWeatherCondition(response) {
     );
   document
     .querySelector("#icon")
-    .setAttribute("alt", response.data.weather[0].description);
+    .setAttribute("alt", response.data.weather[0].main);
 }
 
 function search(city) {
