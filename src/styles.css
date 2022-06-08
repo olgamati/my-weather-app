@@ -19,6 +19,7 @@ a {
   font-size: 20px;
   color: rgba(65, 64, 64, 1);
   margin-bottom: 20px;
+  opacity: 0.7;
 }
 .weather-app-wrapper {
   max-width: 650px;
@@ -101,11 +102,15 @@ a {
   line-height: 24px;
   vertical-align: top;
 }
-
-.col {
+.weather-forecast {
   text-align: center;
   padding: 30px;
+}
+.weather-forecast-date {
   font-weight: 600;
+}
+.weather-forecast-temp {
+  font-size: 13px;
 }
 .background {
   min-height: 100%;
