@@ -21,6 +21,36 @@ if (minutes < 10) {
 let date = document.querySelector(".date");
 date.innerHTML = day + ", " + hours + ":" + minutes;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon", "Tue"];
+
+  let forecastHTML = `<div class="row">`;
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+      <div class="col-2">
+        <div class="weather-forecast-date">${day}</div>
+          <div class="weather-forecast-temp">
+            <span class="weather-forecast-temperature-max"> 18° </span>
+            <span class="weather-forecast-temperature-min"> 12° </span>
+          </div>
+            <img
+                  src="https://openweathermap.org/img/wn/01d@2x.png"
+                  alt="Clear"
+                  width="40"
+            />
+      </div>
+    `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+  console.log(forecastHTML);
+}
+
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -71,3 +101,4 @@ let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 search("Mykolayiv");
+displayForecast();
